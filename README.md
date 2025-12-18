@@ -8,6 +8,16 @@ Full-stack payment integration with React frontend and Spring Boot backend.
 - Success/Failure page handling
 - Responsive UI with Chakra UI
 
+## Preview
+### Home Page
+![Home Page](assets/homepage.png)
+
+### Payment Page
+![Payment Gateway](assets/payment-page.png)
+
+### Success Page
+![Success](assets/success.png)
+
 ## Tech Stack
 - **Frontend**: React, TypeScript, Vite, Chakra UI
 - **Backend**: Spring Boot, Java
