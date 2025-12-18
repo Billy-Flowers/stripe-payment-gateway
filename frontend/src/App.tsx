@@ -3,6 +3,7 @@ import {createBrowserRouter, RouterProvider,} from "react-router-dom";
 import HostedCheckout from "./routes/HostedCheckout.tsx";
 import Success from "./routes/Success.tsx";
 import Failure from "./routes/Failure.tsx";
+import IntegratedCheckout from "./routes/IntegratedCheckout.tsx";
 
 function App() {
 
@@ -17,6 +18,12 @@ function App() {
             path: "/hosted-checkout",
             element: (
                 <HostedCheckout/>
+            )
+        },
+        {
+            path: "/integrated-checkout",
+            element: (
+                <IntegratedCheckout/>
             )
         },
         {

@@ -8,9 +8,9 @@ import {Products} from '../data.ts'
 function HostedCheckout() {
     const [items] = useState<ItemData[]>(Products)
     return <>
-        <Center h={'100vh'} color='black'>
+        <Center minH={'100vh'} bg='white' color='black' py={4}>
             <VStack spacing='24px'>
-                <Heading>Hosted Checkout Example</Heading>
+                <Heading>Hosted Checkout Page</Heading>
                 {items.map(elem => {
                     return <CartItem key={elem.id} data={elem} mode={'checkout'}/>
                 })}
